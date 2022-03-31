@@ -5,7 +5,7 @@
 
 First, we read in `Key.csv`, which includes identifying information about the major party candidates, and the text we use to identify their emails (usually some element of the "paid-for-by" bug).
 
-Next, we use `MailHandler.R` to create several data files. This script unpacks the GMail archive of the emails we collected for this project, and makes minimal formatting changes for space and clarity.
+Next, we use `MailHandler_COPY.R` to create several data files. This script unpacks the GMail archive of the emails we collected for this project, and makes minimal formatting changes for space and clarity.
 
 From there, we merge the resulting dataframes together to create a number of files.
 
@@ -25,4 +25,12 @@ From there, we merge the resulting dataframes together to create a number of fil
 Translating plain text characters to unicode text (and vice versa) meant that our text-processing frequently returned gibberish instead of a punctuation mark. Before cleaning and recoding text files, we note several points.
 
 - Our ability to clean text easily varied across party, likely because candidates used different (related to partisanship) software to process emails.
+- Also, plenty of candidates included plain text emails alongside their rich-text/html emails. These emails are far easier to analyze. When possible, we tried to specifically select this text.
 
+This task is accomplished in `MailCleaner_COPY.R`
+
+# Analysis
+
+This, intuitively, is where we actually try to make sense of the emails we've pulled down.
+
+For now, we include an in-progress replication file, `Analysis_COPY.R`
