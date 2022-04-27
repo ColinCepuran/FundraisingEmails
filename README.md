@@ -15,8 +15,33 @@ From there, we merge the resulting dataframes together to create a number of fil
 
 ## Miscellaneous Notes, Coverage Errors, etc.
 
-- Marco Rubio's campaign opt-in did not sign us up for campaign emails, and instead connected us to constituent services emails.
+## Presidency
+
+
+
+### Major-Party Coordinated
+
+- To our knowledge, the NRCC did *not* send direct fundraising, communications, but rather established joint committees with other candidates (such as Lee Zeldin or John James)
+
+### Senate
+
+- We were not able to sign up for the following Senate candidates' emails: Murkowski, Tuberville, Shelby, Boozman, Feinstein, Gardner, Scott, Rubio, Ernst, Risch, Jordan, .
+- Marco Rubio's campaign opt-in did not sign us up for campaign emails, and instead connected us to constituent services emails. While we include these in our database they are *not* party-political communications for electioneering purposes and should not be treated as such.
 - Because the Democratic candidate in Alaska contested a primary alongside two minor party candidates and lost, we only signed up for the (successful) Republican Senate candidate's emails.
+- Kamala Harris' last email sent by her Committee-to-Elect was sent on August 26, 2020, two weeks after she was nominated as Vice President.
+
+
+
+## Summary
+
+| **<u>Office</u>**       | **<u>In</u>** | **<u>Out</u>** |
+| ----------------------- | ------------- | -------------- |
+| Presidency              | 2             | 0              |
+| Major-Party Coordinated | 5             | 0              |
+| Senate                  | 19            | 8              |
+| House                   |               |                |
+
+
 
 # Joining to ICPSR IDs, Information about candidate, etc.
 
